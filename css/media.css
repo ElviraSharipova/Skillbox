@@ -1,0 +1,230 @@
+        /* @media (max-width: 1100px) {
+
+} */
+        
+        @media (max-width: 1100px) {
+            .hero-container {
+                padding-top: 125px;
+                padding-bottom: 135px;
+            }
+            .hero__title {
+                font-size: 40px;
+                margin-bottom: 18px;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .about__skill {
+                padding-left: 0;
+                padding-top: 90px;
+                background-position: left top;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero__img-mobile {
+                display: none;
+            }
+            .hero__title {
+                font-size: 50px;
+            }
+            .about__main {
+                background-image: url(../img/about-md.png);
+                padding-left: 240px;
+            }
+            .teachers .item__img {
+                max-height: 180px;
+                height: 100%;
+                object-fit: cover;
+                width: 100%;
+            }
+            .teachers__item {
+                margin-bottom: 22px;
+            }
+            .teachers {
+                padding-bottom: 28px;
+            }
+            .courses {
+                padding-top: 73px;
+            }
+            .courses .item__text {
+                min-height: 376px;
+            }
+            /* .header__logo {
+        margin-bottom: 30px;
+    }
+    .header__logo__img {
+        display: block;
+        margin: 0 auto;
+    } */
+            .header__nav {
+                /* max-width: 470px; */
+                justify-content: space-between;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .header__logo {
+                margin-bottom: 30px;
+            }
+            .courses .item__text {
+                padding-left: 15px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .courses .item__text {
+                padding-bottom: 20px;
+                padding-left: 30px;
+            }
+            .header__logo__img {
+                display: block;
+                margin: 0 auto;
+            }
+            .courses .item__descr {
+                margin-bottom: 30px;
+            }
+            .courses__item-wrap {
+                padding-bottom: 0;
+            }
+            .about__main {
+                background-image: url(../img/about_img.png);
+                background-position: left top;
+                padding-left: 180px;
+            }
+            .header__nav {
+                max-width: 100%;
+            }
+            .header {
+                /* padding: 0 15px; */
+                padding: 0;
+                padding-top: 28px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-bottom: 33px;
+            }
+            .hero-container {
+                padding-top: 77px;
+            }
+            .hero__descr {
+                max-width: 345px;
+                line-height: 150%;
+                margin-bottom: 60px;
+            }
+            .about {
+                padding-bottom: 25px;
+            }
+            .teachers__item {
+                margin-bottom: 36px;
+            }
+            .teachers {
+                padding-bottom: 48px;
+            }
+            .courses .item__text {
+                min-height: 473px;
+            }
+            .courses .item__button {
+                padding: 19px 47px;
+            }
+        }
+        
+        @media (max-width: 575px) {
+            .about__skill {
+                padding-top: 0;
+                padding-left: 110px;
+                background-position: left;
+            }
+        }
+        
+        @media (max-width: 528px) {
+            .header .nav__list {
+                display: flex;
+                /* flex-wrap: wrap; */
+                overflow-x: scroll;
+            }
+            .header .nav__list::-webkit-scrollbar {
+                display: none;
+            }
+            .nav__item:not(:last-child) {
+                margin-right: 56px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .about__main {
+                background-image: none;
+                padding-left: 0;
+            }
+        }
+        
+        @media (max-width: 400px) {
+            .hero__title {
+                font-size: 30px;
+                margin-bottom: 6px;
+            }
+        }
+        
+        @media (max-width: 320px) {
+            .header__logo {
+                margin-bottom: 22px;
+            }
+            .header {
+                padding-bottom: 5px;
+            }
+            .hero-container {
+                padding-top: 50px;
+            }
+            .hero__descr {
+                max-width: 100%;
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 48px;
+            }
+            .hero__btn {
+                padding: 18px 48px;
+            }
+            .hero-container {
+                padding-bottom: 52px;
+            }
+            .about {
+                padding-top: 50px;
+                padding-bottom: 19px;
+            }
+            .about__title {
+                font-size: 20px;
+                line-height: 26px;
+                margin-bottom: 2px;
+            }
+            /* .about__title {} */
+            .teachers__title {
+                font-size: 20px;
+                margin-bottom: 27px;
+            }
+            .teachers {
+                padding-top: 47px;
+                padding-bottom: 25px;
+            }
+            .teachers__item {
+                margin-bottom: 23px;
+            }
+            .teachers .item__img {
+                border-radius: 20px 20px 0px 0px;
+            }
+            .courses__titile {
+                font-size: 20px;
+                margin-bottom: 27px;
+            }
+            .courses {
+                padding-top: 47px;
+                padding-bottom: 24px;
+            }
+            .courses .item__title {
+                margin-bottom: 8px;
+            }
+            .courses .item__button {
+                padding: 20px 54px;
+            }
+            .courses__item-wrap {
+                padding-bottom: 0px;
+            }
+        }
